@@ -1,0 +1,10 @@
+step1 -> npm init -y  // This initialises the directory as a NodeJs project
+step2 -> npm install -D tailwindcss postcss autoprefixer vite    // installs required packages 
+step3 -> npx tailwind init -p
+step4 -> Create a css file "input.css", add it to your html and edit it with this content:
+         @tailwind base;
+         @tailwind components;
+         @tailwind utilities;
+step5 -> in Your tailwind.config.js file replace content:[] with content" ["*"],
+step6 -> Add "start" : "vite" to your scripts in package.json
+step7 -> write npm run start command to terminal
