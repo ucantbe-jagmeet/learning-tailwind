@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Facebook - log in or sign up</title>
+  </head>
+  <body>
+    <div
+      class="main_container w-screen h-screen bg-[#F0F2F5] flex justify-center items-center"
+    >
+      <div
+        class="left w-1/2 h-full flex justify-center items-start pl-[19rem] pb-48 flex-col rounded-lg"
+      >
+        <h1 class="text-[#1877F2] font-bold text-4xl tracking-tighter mb-2">
+          facebook
+        </h1>
+        <h2 class="text-3xl">Recent logins</h2>
+        <h3 class="mb-6">Click your picture or add an account</h3>
+        <div class="flex">
+          <div
+            class="h-[200px] w-[160px] rounded-2xl hover:shadow-lg cursor-pointer hover:border-none border-[1px] border-gray-300"
+          >
+            <img
+              src="./images/jagmeet.jpeg"
+              alt="Jagmeet Singh"
+              class="h-[160px] w-[157.5px] rounded-t-2xl"
+            />
+            <h1
+              class="text-center pt-1 h-9 text-md text-slate-700 bg-white rounded-b-2xl"
+            >
+              Jagmeet
+            </h1>
+          </div>
+          <div
+            class="h-[200px] w-[160px] ml-4 rounded-2xl hover:shadow-lg hover:border-none border-[1px] border-gray-300 cursor-pointer"
+          >
+            <h1
+              class="h-[160px] w-[158px] rounded-t-2xl flex justify-center items-center text-6xl text-[#1877F2] bg-[#F5F6F7]"
+            >
+              +
+            </h1>
+            <h1
+              class="text-center pt-1 h-9 text-md text-[#1877F2] bg-white rounded-b-2xl"
+            >
+              Add Account
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="right w-1/2 h-full flex justify-center items-center flex-col">
+        <form
+          action=""
+          class="border-2 h-[23rem] w-[23rem] rounded-lg bg-white shadow-lg -ml-56 -mt-11"
+        >
+          <input
+            type="email"
+            placeholder="Email address or phone number"
+            class="w-11/12 mx-4 rounded-md mt-3 h-14 pl-4 border-2 outline-none focus:border-[#1877F2]"
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            class="w-11/12 mx-4 rounded-md mt-3 h-14 pl-4 border-2 outline-none focus:border-[#1877F2]"
+          />
+          <button
+            class="w-11/12 mx-4 rounded-md mt-3 h-12 pl-4 text-white font-bold text-xl bg-[#1877F2] hover:bg-[#1571eb]"
+          >
+            Log In
+          </button>
+          <a
+            href="#"
+            class="w-11/12 mx-5 rounded-md mt-3 h-14 flex justify-center text-[#1877F2]"
+            >Forgotten Password?</a
+          >
+          <hr class="w-11/12 ml-4 h-5" />
+          <button
+            class="w-3/5 ml-[4.3rem] rounded-md h-12 pl-4 text-white font-bold text-lg bg-[#34a51e] hover:bg-[#319C1C]"
+          >
+            Create new account
+          </button>
+        </form>
+        <div class="-ml-56 mt-10">
+          <span class="font-bold">Create a Page</span> for a celebrity, brand or
+          business.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
